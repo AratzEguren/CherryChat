@@ -1,0 +1,17 @@
+[2025-10-22 12:35:56] SERVIDOR INICIADO en puerto 3040 - 2025-10-22 12:35:56
+[2025-10-22 12:36:16] Usuario entra: Aratz
+[2025-10-22 12:36:16] Mensaje público: >> Aratz se ha unido al chat
+[2025-10-22 12:38:54] SERVIDOR INICIADO en puerto 3040 - 2025-10-22 12:38:54
+[2025-10-22 12:39:23] Mensaje público: << null ha abandonado el chat
+[2025-10-22 12:40:37] Mensaje público: << null ha abandonado el chat
+[2025-10-22 12:41:29] SERVIDOR INICIADO en puerto 3040 - 2025-10-22 12:41:29
+[2025-10-22 12:42:06] Mensaje público: << null ha abandonado el chat
+[2025-10-22 12:42:38] Usuario entra: Aratz
+[2025-10-22 12:42:38] Mensaje público: >> Aratz se ha unido al chat
+[2025-10-22 12:42:57] Mensaje público: Aratz: o
+[2025-10-22 12:43:13] Mensaje público: Aratz: Hola
+[2025-10-22 12:44:10] Mensaje público: << null ha abandonado el chat
+[2025-10-22 12:45:00] Mensaje público: << null ha abandonado el chat
+[2025-10-22 12:45:07] Mensaje público: Aratz: Hola
+[2025-10-22 12:57:04] SERVIDOR INICIADO en puerto 3040 - 2025-10-22 12:57:04
+[2025-10-22 12:58:45] Mensaje público: << null ha abandonado el chat
