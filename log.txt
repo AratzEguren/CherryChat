@@ -65,3 +65,170 @@
 [2025-10-27 17:19:44] Mensaje público de SERVER: << Aratz ha abandonado el chat
 [2025-10-27 17:19:45] Usuario sale: Sate
 [2025-10-27 17:19:45] Mensaje público de SERVER: << Sate ha abandonado el chat
+[2025-10-29 09:32:10] SERVIDOR INICIADO en puerto 3040 - 2025-10-29 09:32:09
+[2025-10-29 09:32:19] Usuario entra: Sate
+[2025-10-29 09:32:19] Mensaje público de SERVER: >> Sate se ha unido al chat
+[2025-10-29 09:32:26] Usuario entra: Aratz
+[2025-10-29 09:32:26] Mensaje público de SERVER: >> Aratz se ha unido al chat
+[2025-10-29 09:32:40] Mensaje público de SERVER: << Aratz ha abandonado el chat
+[2025-10-29 09:33:07] Mensaje público de Sate: Hili, que tal???
+[2025-10-29 09:33:19] Mensaje público de Aratz: Todo bien Y tu????
+[2025-10-29 09:33:37] Usuario sale: Sate
+[2025-10-29 09:33:37] Mensaje público de SERVER: << Sate ha abandonado el chat
+[2025-10-29 09:33:38] Usuario sale: Aratz
+[2025-10-29 09:33:38] Mensaje público de SERVER: << Aratz ha abandonado el chat
+[2025-10-29 11:41:59] SERVIDOR INICIADO en puerto 3040 - 2025-10-29 11:41:59
+[2025-10-29 11:42:11] Usuario entra: Sate
+[2025-10-29 11:42:11] Mensaje público de SERVER: >> Sate se ha unido al chat
+[2025-10-29 11:42:20] Usuario entra: Aratz
+[2025-10-29 11:42:20] Mensaje público de SERVER: >> Aratz se ha unido al chat
+[2025-10-29 11:42:37] Mensaje privado: [PRIVADO] Aratz -> Sate: Hola
+[2025-10-29 11:42:49] Usuario entra: Iker
+[2025-10-29 11:42:49] Mensaje público de SERVER: >> Iker se ha unido al chat
+[2025-10-29 11:43:27] Mensaje privado: [PRIVADO] Iker -> Sate: hola
+[2025-10-29 11:43:47] Mensaje privado: [PRIVADO] Iker -> Aratz: Sate
+[2025-10-29 11:44:05] Mensaje público de Aratz: Hola
+[2025-10-29 11:44:35] Mensaje privado: [PRIVADO] Aratz -> Iker: Esto es un intento.
+[2025-10-29 11:46:02] Usuario sale: Iker
+[2025-10-29 11:46:02] Mensaje público de SERVER: << Iker ha abandonado el chat
+[2025-10-29 11:46:04] Usuario sale: Aratz
+[2025-10-29 11:46:04] Mensaje público de SERVER: << Aratz ha abandonado el chat
+[2025-10-29 11:46:06] Usuario sale: Sate
+[2025-10-29 11:46:06] Mensaje público de SERVER: << Sate ha abandonado el chat
+[2025-10-29 11:57:33] SERVIDOR INICIADO en puerto 3040 - 2025-10-29 11:57:33
+[2025-10-29 11:57:35] Usuario entra: Aratz
+[2025-10-29 11:57:35] Mensaje público de SERVER: >> Aratz se ha unido al chat
+[2025-10-29 11:57:45] Usuario sale: Aratz
+[2025-10-29 11:57:45] Mensaje público de SERVER: << Aratz ha abandonado el chat
+[2025-10-29 11:58:03] Usuario entra: Sate
+[2025-10-29 11:58:03] Mensaje público de SERVER: >> Sate se ha unido al chat
+[2025-10-29 11:58:17] Usuario entra: Aratz
+[2025-10-29 11:58:17] Mensaje público de SERVER: >> Aratz se ha unido al chat
+[2025-10-29 11:58:30] Usuario entra: Iker
+[2025-10-29 11:58:30] Mensaje público de SERVER: >> Iker se ha unido al chat
+[2025-10-29 11:59:03] Mensaje público de Iker: /privado Aratz Hola
+[2025-10-29 11:59:20] Usuario sale: Iker
+[2025-10-29 11:59:20] Mensaje público de SERVER: << Iker ha abandonado el chat
+[2025-10-29 11:59:21] Usuario sale: Aratz
+[2025-10-29 11:59:21] Mensaje público de SERVER: << Aratz ha abandonado el chat
+[2025-10-29 11:59:23] Usuario sale: Sate
+[2025-10-29 11:59:23] Mensaje público de SERVER: << Sate ha abandonado el chat
+[2025-10-29 12:01:01] Usuario entra: Aratz
+[2025-10-29 12:01:01] Mensaje público de SERVER: >> Aratz se ha unido al chat
+[2025-10-29 12:01:12] Mensaje público de Aratz: Hola
+[2025-10-29 12:01:30] Usuario entra: Sate
+[2025-10-29 12:01:30] Mensaje público de SERVER: >> Sate se ha unido al chat
+[2025-10-29 12:01:45] Mensaje público de Sate: Hola
+[2025-10-29 12:01:53] Mensaje público de Aratz: Hoal
+[2025-10-29 12:01:57] Usuario sale: Sate
+[2025-10-29 12:01:57] Mensaje público de SERVER: << Sate ha abandonado el chat
+[2025-10-29 12:01:58] Usuario sale: Aratz
+[2025-10-29 12:01:58] Mensaje público de SERVER: << Aratz ha abandonado el chat
+[2025-10-29 12:04:15] SERVIDOR INICIADO en puerto 3040 - 2025-10-29 12:04:15
+[2025-10-29 12:04:29] Usuario entra: Sate
+[2025-10-29 12:04:29] Mensaje público de SERVER: >> Sate se ha unido al chat
+[2025-10-29 12:04:51] Usuario entra: Aratz
+[2025-10-29 12:04:51] Mensaje público de SERVER: >> Aratz se ha unido al chat
+[2025-10-29 12:05:02] Usuario entra: Iker
+[2025-10-29 12:05:02] Mensaje público de SERVER: >> Iker se ha unido al chat
+[2025-10-29 12:05:30] Mensaje público de Iker: Hola
+[2025-10-29 12:05:37] Mensaje público de Aratz: Hola
+[2025-10-29 12:05:42] Mensaje privado: [PRIVADO] Sate -> SERVER: Hola
+[2025-10-29 12:05:49] Usuario sale: Sate
+[2025-10-29 12:05:49] Mensaje público de SERVER: << Sate ha abandonado el chat
+[2025-10-29 12:05:51] Usuario sale: Aratz
+[2025-10-29 12:05:51] Mensaje público de SERVER: << Aratz ha abandonado el chat
+[2025-10-29 12:05:52] Usuario sale: Iker
+[2025-10-29 12:05:52] Mensaje público de SERVER: << Iker ha abandonado el chat
+[2025-10-29 12:11:27] SERVIDOR INICIADO en puerto 3040 - 2025-10-29 12:11:27
+[2025-10-29 12:11:35] Usuario entra: Sate
+[2025-10-29 12:11:35] Mensaje público de SERVER: >> Sate se ha unido al chat
+[2025-10-29 12:11:40] Usuario entra: Aratz
+[2025-10-29 12:11:40] Mensaje público de SERVER: >> Aratz se ha unido al chat
+[2025-10-29 12:11:59] Usuario sale: Sate
+[2025-10-29 12:11:59] Mensaje público de SERVER: << Sate ha abandonado el chat
+[2025-10-29 12:12:00] Usuario sale: Aratz
+[2025-10-29 12:12:00] Mensaje público de SERVER: << Aratz ha abandonado el chat
+[2025-10-29 12:12:06] Usuario entra: Aratz
+[2025-10-29 12:12:06] Mensaje público de SERVER: >> Aratz se ha unido al chat
+[2025-10-29 12:12:11] Mensaje público de SERVER: << Aratz ha abandonado el chat
+[2025-10-29 12:12:30] Usuario entra: Sate
+[2025-10-29 12:12:30] Mensaje público de SERVER: >> Sate se ha unido al chat
+[2025-10-29 12:12:47] Mensaje privado: [PRIVADO] Aratz -> sate: Hola
+[2025-10-29 12:13:05] Usuario entra: Iker
+[2025-10-29 12:13:05] Mensaje público de SERVER: >> Iker se ha unido al chat
+[2025-10-29 12:13:16] Mensaje privado: [PRIVADO] Aratz -> sate: Hola
+[2025-10-29 12:13:25] Mensaje privado: [PRIVADO] Aratz -> iker: Hola Iker
+[2025-10-29 12:13:35] Usuario sale: Iker
+[2025-10-29 12:13:35] Mensaje público de SERVER: << Iker ha abandonado el chat
+[2025-10-29 12:13:37] Usuario sale: Sate
+[2025-10-29 12:13:37] Mensaje público de SERVER: << Sate ha abandonado el chat
+[2025-10-29 12:13:38] Usuario sale: Aratz
+[2025-10-29 12:13:38] Mensaje público de SERVER: << Aratz ha abandonado el chat
+[2025-10-29 12:28:16] SERVIDOR INICIADO en puerto 3040 - 2025-10-29 12:28:16
+[2025-10-29 12:28:33] Usuario entra: Aratz
+[2025-10-29 12:28:33] Mensaje público de SERVER: >> Aratz se ha unido al chat
+[2025-10-29 12:28:44] Usuario entra: Sate
+[2025-10-29 12:28:44] Mensaje público de SERVER: >> Sate se ha unido al chat
+[2025-10-29 12:28:48] Usuario entra: Iker
+[2025-10-29 12:28:48] Mensaje público de SERVER: >> Iker se ha unido al chat
+[2025-10-29 12:29:10] Mensaje privado: [PRIVADO] Aratz -> sate: Hola
+[2025-10-29 12:29:22] Usuario sale: Aratz
+[2025-10-29 12:29:22] Mensaje público de SERVER: << Aratz ha abandonado el chat
+[2025-10-29 12:29:23] Usuario sale: Sate
+[2025-10-29 12:29:23] Mensaje público de SERVER: << Sate ha abandonado el chat
+[2025-10-29 12:29:25] Usuario sale: Iker
+[2025-10-29 12:29:25] Mensaje público de SERVER: << Iker ha abandonado el chat
+[2025-10-29 12:41:22] SERVIDOR INICIADO en puerto 3040 - 2025-10-29 12:41:22
+[2025-10-29 12:41:30] Usuario entra: Iker
+[2025-10-29 12:41:30] Mensaje público de SERVER: >> Iker se ha unido al chat
+[2025-10-29 12:41:41] Usuario entra: Sate
+[2025-10-29 12:41:41] Mensaje público de SERVER: >> Sate se ha unido al chat
+[2025-10-29 12:41:55] Usuario entra: Aratz
+[2025-10-29 12:41:55] Mensaje público de SERVER: >> Aratz se ha unido al chat
+[2025-10-29 12:42:20] Usuario entra: Jon Ander
+[2025-10-29 12:42:20] Mensaje público de SERVER: >> Jon Ander se ha unido al chat
+[2025-10-29 12:42:33] Usuario sale: Aratz
+[2025-10-29 12:42:33] Mensaje público de SERVER: << Aratz ha abandonado el chat
+[2025-10-29 12:42:34] Usuario sale: Jon Ander
+[2025-10-29 12:42:34] Mensaje público de SERVER: << Jon Ander ha abandonado el chat
+[2025-10-29 12:42:40] Usuario sale: Iker
+[2025-10-29 12:42:40] Mensaje público de SERVER: << Iker ha abandonado el chat
+[2025-10-29 12:49:10] SERVIDOR INICIADO en puerto 3040 - 2025-10-29 12:49:10
+[2025-10-29 12:49:16] Usuario entra: Aratz
+[2025-10-29 12:49:16] Mensaje público de SERVER: >> Aratz se ha unido al chat
+[2025-10-29 12:49:24] Usuario entra: Iker
+[2025-10-29 12:49:24] Mensaje público de SERVER: >> Iker se ha unido al chat
+[2025-10-29 12:49:35] Usuario entra: Sate
+[2025-10-29 12:49:35] Mensaje público de SERVER: >> Sate se ha unido al chat
+[2025-10-29 12:51:27] SERVIDOR INICIADO en puerto 3040 - 2025-10-29 12:51:27
+[2025-10-29 12:51:34] Usuario entra: Sate
+[2025-10-29 12:51:34] Mensaje público de SERVER: >> Sate se ha unido al chat
+[2025-10-29 12:51:41] Usuario entra: Iker
+[2025-10-29 12:51:41] Mensaje público de SERVER: >> Iker se ha unido al chat
+[2025-10-29 12:51:53] Usuario entra: Aratz
+[2025-10-29 12:51:53] Mensaje público de SERVER: >> Aratz se ha unido al chat
+[2025-10-29 12:52:00] Usuario entra: Saiz
+[2025-10-29 12:52:00] Mensaje público de SERVER: >> Saiz se ha unido al chat
+[2025-10-29 12:52:19] Mensaje público de Sate: Hola
+[2025-10-29 12:52:32] Mensaje privado: [PRIVADO] Sate -> aratz: Hola
+[2025-10-29 12:52:45] Usuario sale: Saiz
+[2025-10-29 12:52:45] Mensaje público de SERVER: << Saiz ha abandonado el chat
+[2025-10-29 12:52:46] Usuario sale: Aratz
+[2025-10-29 12:52:46] Mensaje público de SERVER: << Aratz ha abandonado el chat
+[2025-10-29 12:52:47] Usuario sale: Iker
+[2025-10-29 12:52:47] Mensaje público de SERVER: << Iker ha abandonado el chat
+[2025-10-29 12:52:48] Usuario sale: Sate
+[2025-10-29 12:52:48] Mensaje público de SERVER: << Sate ha abandonado el chat
+[2025-10-29 12:53:43] Usuario entra: Iker
+[2025-10-29 12:53:43] Mensaje público de SERVER: >> Iker se ha unido al chat
+[2025-10-29 12:56:21] Usuario sale: Iker
+[2025-10-29 12:56:21] Mensaje público de SERVER: << Iker ha abandonado el chat
+[2025-10-29 12:56:31] Usuario entra: Sate
+[2025-10-29 12:56:31] Mensaje público de SERVER: >> Sate se ha unido al chat
+[2025-10-29 12:56:41] Usuario entra: Iker
+[2025-10-29 12:56:41] Mensaje público de SERVER: >> Iker se ha unido al chat
+[2025-10-29 12:56:46] Usuario sale: Iker
+[2025-10-29 12:56:46] Mensaje público de SERVER: << Iker ha abandonado el chat
+[2025-10-29 12:56:49] Usuario sale: Sate
+[2025-10-29 12:56:49] Mensaje público de SERVER: << Sate ha abandonado el chat

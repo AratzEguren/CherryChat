@@ -65,4 +65,9 @@ public class Mensaje implements Serializable {
 			return contenido;
 		}
 	}
+
+	public String getEmisor() {
+		return remitente;
+
+	}
 }

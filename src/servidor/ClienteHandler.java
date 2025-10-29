@@ -2,6 +2,8 @@ package servidor;
 
 import java.io.*;
 import java.net.Socket;
+import java.util.stream.Collectors;
+
 import comun.Mensaje;
 
 public class ClienteHandler extends Thread {
@@ -51,6 +53,14 @@ public class ClienteHandler extends Thread {
 			servidor.broadcast(
 					new Mensaje("SERVER", null, ">> " + nombreUsuario + " se ha unido al chat", Mensaje.Tipo.SISTEMA),
 					this);
+			
+			String listaUsuarios = servidor.getClientes().stream()
+				    .filter(c -> c != this)  // Excluir al cliente actual para evitar duplicados
+				    .map(ClienteHandler::getNombreUsuario)
+				    .filter(nombre -> nombre != null && !nombre.isEmpty())
+				    .collect(Collectors.joining(", "));  // Une los nombres con comas: "usuario1, usuario2, usuario3"
+				Mensaje msgLista = new Mensaje("SERVER", nombreUsuario, "usuarios_conectados: " + listaUsuarios, Mensaje.Tipo.SISTEMA);
+				enviarMensaje(msgLista);
 
 			// 🔁 Bucle de recepción
 			Mensaje recibido;
