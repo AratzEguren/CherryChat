@@ -8,6 +8,8 @@ import java.time.format.DateTimeFormatter;
 import java.util.*;
 import java.util.concurrent.*;
 
+import comun.Mensaje;
+
 public class ServidorMain {
 
     private final int puerto;
@@ -48,68 +50,93 @@ public class ServidorMain {
         while (true) {
             try {
                 Socket socket = serverSocket.accept();
+
                 synchronized (this) {
                     if (clientes.size() >= MAX_CLIENTES) {
-                        // Rechazar conexión
-                        PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
-                        ObjectOutputStream salidaObjeto = new ObjectOutputStream(socket.getOutputStream());
-                        out.println("ERROR:SERVIDOR_LLENO");
-                        escribirLog("Conexion rechazada (servidor lleno) desde " + socket.getRemoteSocketAddress());
-                        out.close();
+                        ObjectOutputStream salida = new ObjectOutputStream(socket.getOutputStream());
+                        Mensaje error = new Mensaje("SERVER", "ERROR:SERVIDOR_LLENO");
+                        salida.writeObject(error);
+                        salida.flush();
+                        salida.close();
+                        escribirLog("Conexión rechazada (servidor lleno) desde " + socket.getRemoteSocketAddress());
                         socket.close();
                         continue;
                     }
                 }
-                // Crear handler y arrancar hilo
+
                 ClienteHandler handler = new ClienteHandler(socket, this);
                 handler.start();
+
             } catch (IOException e) {
                 System.err.println("Error aceptando conexión: " + e.getMessage());
             }
         }
     }
 
-    // Registración y eliminación de clientes (synchronized)
-    public synchronized void registrarCliente(ClienteHandler cliente) {
+    // ===========================
+    // CLIENTES
+    // ===========================
+
+    public synchronized boolean registrarCliente(ClienteHandler cliente) {
+        // Evitar nombres duplicados
+        for (ClienteHandler c : clientes) {
+            if (c.getNombreUsuario() != null && c.getNombreUsuario().equalsIgnoreCase(cliente.getNombreUsuario())) {
+                return false;
+            }
+        }
         clientes.add(cliente);
         escribirLog("Usuario entra: " + cliente.getNombreUsuario());
+        return true;
     }
 
     public synchronized void eliminarCliente(ClienteHandler cliente) {
-        boolean removed = clientes.remove(cliente);
-        if (removed) {
+        if (clientes.remove(cliente)) {
             escribirLog("Usuario sale: " + cliente.getNombreUsuario());
         }
     }
 
-    // Broadcast público (envía a todos)
-    public synchronized void broadcast(String mensaje, ClienteHandler emisor) {
-        ultimoMensaje = mensaje;
-        escribirLog("Mensaje público: " + mensaje);
+    public synchronized List<ClienteHandler> getClientes() {
+        return new ArrayList<>(clientes);
+    }
+
+    // ===========================
+    // MENSAJES
+    // ===========================
+
+    // Mensaje público
+    public synchronized void broadcast(Mensaje mensaje, ClienteHandler emisor) {
+        ultimoMensaje = mensaje.getContenido();
+        escribirLog("Mensaje público de " + mensaje.getRemitente() + ": " + mensaje.getContenido());
+
         for (ClienteHandler c : clientes) {
             if (c != emisor) {
-                c.enviarMensaje("PUBLICO:" + mensaje);
-            } else {
-                // también puede enviarse al emisor si quieres que reciba confirmación
-                c.enviarMensaje("LOCAL:" + mensaje);
+                c.enviarMensaje(mensaje);
             }
         }
     }
 
-    // Enviar privado (solo al destinatario)
-    public synchronized boolean enviarPrivado(String destinatario, String mensaje, String remitente) {
-        ultimoMensaje = "[PRIVADO] " + remitente + " -> " + destinatario + ": " + mensaje;
+    // Mensaje privado
+    public synchronized boolean enviarPrivado(Mensaje mensaje, ClienteHandler emisor) {
+        String destinatario = mensaje.getDestinatario();
+        ultimoMensaje = "[PRIVADO] " + mensaje.getRemitente() + " -> " + destinatario + ": " + mensaje.getContenido();
         escribirLog("Mensaje privado: " + ultimoMensaje);
+
         for (ClienteHandler c : clientes) {
-            if (c.getNombreUsuario() != null && c.getNombreUsuario().equals(destinatario)) {
-                c.enviarMensaje("PRIVADO:DE:" + remitente + ":" + mensaje);
+            if (c.getNombreUsuario() != null && c.getNombreUsuario().equalsIgnoreCase(destinatario)) {
+                c.enviarMensaje(mensaje);
                 return true;
             }
         }
+
+        // Si no se encuentra el destinatario
+        emisor.enviarMensaje(new Mensaje("SERVER", "Usuario '" + destinatario + "' no encontrado."));
         return false;
     }
 
-    // Escribir en log (synchronized para evitar race)
+    // ===========================
+    // LOG Y ESTADÍSTICAS
+    // ===========================
+
     public synchronized void escribirLog(String texto) {
         try (FileWriter fw = new FileWriter(logFile, true);
              BufferedWriter bw = new BufferedWriter(fw);
@@ -124,7 +151,6 @@ public class ServidorMain {
         return LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
     }
 
-    // Info para el informe periódico
     public synchronized int getNumeroConectados() {
         return clientes.size();
     }
@@ -139,10 +165,11 @@ public class ServidorMain {
 
     private void arrancarInformePeriodico(int segundos) {
         scheduler.scheduleAtFixedRate(() -> {
-            String info = String.format("INFO -> Usuarios conectados: %d | Tiempo activo: %s | Último mensaje: %s",
-                    getNumeroConectados(),
-                    formatearDuracion(getTiempoActivo()),
-                    getUltimoMensaje());
+            String info = String.format(
+                "INFO -> Usuarios conectados: %d | Tiempo activo: %s | Último mensaje: %s",
+                getNumeroConectados(),
+                formatearDuracion(getTiempoActivo()),
+                getUltimoMensaje());
             System.out.println(info);
         }, segundos, segundos, TimeUnit.SECONDS);
     }

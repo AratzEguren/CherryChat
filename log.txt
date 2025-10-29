@@ -15,3 +15,53 @@
 [2025-10-22 12:45:07] Mensaje público: Aratz: Hola
 [2025-10-22 12:57:04] SERVIDOR INICIADO en puerto 3040 - 2025-10-22 12:57:04
 [2025-10-22 12:58:45] Mensaje público: << null ha abandonado el chat
+[2025-10-22 14:07:48] SERVIDOR INICIADO en puerto 3040 - 2025-10-22 14:07:48
+[2025-10-22 14:08:12] Mensaje público: << null ha abandonado el chat
+[2025-10-22 14:08:35] Usuario entra: Aratz
+[2025-10-22 14:08:35] Mensaje público: >> Aratz se ha unido al chat
+[2025-10-22 14:08:57] Mensaje público: Aratz: Hoa
+[2025-10-26 20:52:40] SERVIDOR INICIADO en puerto 3040 - 2025-10-26 20:52:40
+[2025-10-26 20:53:00] Mensaje público: << null ha abandonado el chat
+[2025-10-26 20:53:18] Mensaje público: << null ha abandonado el chat
+[2025-10-27 08:11:17] SERVIDOR INICIADO en puerto 3040 - 2025-10-27 08:11:17
+[2025-10-27 08:11:37] Mensaje público: << null ha abandonado el chat
+[2025-10-27 08:16:10] SERVIDOR INICIADO en puerto 3040 - 2025-10-27 08:16:10
+[2025-10-27 08:16:23] Usuario entra: Sate
+[2025-10-27 08:16:23] Mensaje público: >> Sate se ha unido al chat
+[2025-10-27 08:16:29] Mensaje público: Hola
+[2025-10-27 08:16:37] Mensaje público: Que tal???
+[2025-10-27 08:16:39] Usuario sale: Sate
+[2025-10-27 08:16:39] Mensaje público: << Sate ha abandonado el chat
+[2025-10-27 08:17:14] SERVIDOR INICIADO en puerto 3040 - 2025-10-27 08:17:14
+[2025-10-27 08:18:11] Usuario entra: Sate
+[2025-10-27 08:18:11] Mensaje público: >> Sate se ha unido al chat
+[2025-10-27 08:18:17] Mensaje público: Hola
+[2025-10-27 08:18:22] Mensaje público: Soy Aratz
+[2025-10-27 08:18:30] Mensaje público: Que te cuentas???
+[2025-10-27 08:18:38] Usuario sale: Sate
+[2025-10-27 08:18:38] Mensaje público: << Sate ha abandonado el chat
+[2025-10-27 08:23:06] SERVIDOR INICIADO en puerto 3040 - 2025-10-27 08:23:06
+[2025-10-27 08:23:21] Usuario entra: Aratz
+[2025-10-27 08:23:21] Mensaje público: >> Aratz se ha unido al chat
+[2025-10-27 08:23:35] Usuario entra: Aratz
+[2025-10-27 08:23:35] Mensaje público: >> Aratz se ha unido al chat
+[2025-10-27 08:23:45] Mensaje público: Hola
+[2025-10-27 08:23:53] Mensaje público: Qué tal???
+[2025-10-27 08:23:55] Usuario sale: Aratz
+[2025-10-27 08:23:55] Mensaje público: << Aratz ha abandonado el chat
+[2025-10-27 08:23:59] Usuario sale: Aratz
+[2025-10-27 08:23:59] Mensaje público: << Aratz ha abandonado el chat
+[2025-10-27 17:18:08] SERVIDOR INICIADO en puerto 3040 - 2025-10-27 17:18:08
+[2025-10-27 17:18:17] Usuario entra: Sate
+[2025-10-27 17:18:17] Mensaje público de SERVER: >> Sate se ha unido al chat
+[2025-10-27 17:18:28] Mensaje público de SERVER: << Sate ha abandonado el chat
+[2025-10-27 17:18:47] Usuario entra: Aratz
+[2025-10-27 17:18:47] Mensaje público de SERVER: >> Aratz se ha unido al chat
+[2025-10-27 17:19:00] Mensaje público de Aratz: Hoal
+[2025-10-27 17:19:25] Mensaje público de Sate: Hola
+[2025-10-27 17:19:31] Mensaje público de Aratz: Quien eres???
+[2025-10-27 17:19:38] Mensaje público de Sate: Soy Sate
+[2025-10-27 17:19:44] Usuario sale: Aratz
+[2025-10-27 17:19:44] Mensaje público de SERVER: << Aratz ha abandonado el chat
+[2025-10-27 17:19:45] Usuario sale: Sate
+[2025-10-27 17:19:45] Mensaje público de SERVER: << Sate ha abandonado el chat
